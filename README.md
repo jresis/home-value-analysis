@@ -20,9 +20,9 @@ The RMSE is 121054
 
 ![Screen Shot 2020-11-28 at 1 08 15 PM](https://user-images.githubusercontent.com/72099238/100524096-cb35bd80-317a-11eb-81b0-8e0d59608ec8.png)
 
-The residual does not fit perfectly on the line. The outliers in the tail that tell us ...
+* The residual does not fit perfectly on the line. The outliers in the tail that tell us ...
 
-It is right-skewed (or positively skewed). May need to log transform to solve it.
+* It is right-skewed (or positively skewed). May need to log transform to solve it.
 
 # Second Model
 
@@ -34,8 +34,26 @@ On this model, we focus on categorical variables and made it dummies
 ![Screen Shot 2020-11-28 at 1 20 39 PM](https://user-images.githubusercontent.com/72099238/100524302-90348980-317c-11eb-90ba-dd18880a1b62.png)
 
 
-R_squared is .602 that lower than basemodel and RMSE is 140227 that higher than basemodel. This model is definitely worse than base model
+* R_squared is .602 that lower than basemodel and RMSE is 140227 that higher than basemodel. 
 
+* This model is definitely worse than base model
+
+# Third Model
+
+On this model, we decided to bin bedrooms, bathrooms, lat, long and zipcode
+
+![Screen Shot 2020-11-28 at 1 27 43 PM](https://user-images.githubusercontent.com/72099238/100524412-9c6d1680-317d-11eb-8969-8098910bfd52.png)
+
+![Screen Shot 2020-11-28 at 1 27 55 PM](https://user-images.githubusercontent.com/72099238/100524417-a42cbb00-317d-11eb-9a6a-b5cd6ce2f085.png)
+
+![Screen Shot 2020-11-28 at 1 30 06 PM](https://user-images.githubusercontent.com/72099238/100524439-da6a3a80-317d-11eb-88f0-736fbfdb8899.png)
+
+
+* The residual does not fit perfectly on the line. The outliers in the tail that tell us It is a right skewed (or positive skewed). May need to log transform to solve it.
+
+* Compare the third model to the base model. The R2 and RMSE are almost the same, but on the third model, I already solved all problems, such as: multicollinearity, high correlation and dummy variable.
+
+* Based on our experience, the third model is the best model thus far. We attempted to use log transformations, but that made our model less effective. However, we will try again with log transformation, and we will see if it can help our model become more normalized.
 
 
 There were quite a few key takeaways from our model. Perhaps the most important one is that location matters. Homes with a waterfront and a high view rating tend to be more valuable. We are also able to make conclusions about the latitudes and longitudes of homes. After separating the county into north/central/south as well as west/central/east regions, we could see that the neighborhoods in the north and west regions tend to fare better than homes in the other regions. The inclusion of the regional information greatly reduced the error in our model.
