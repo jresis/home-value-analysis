@@ -16,6 +16,12 @@ There are a couple of positive takeaways. There is only one high p-value. We see
 
 The skew coefficient (0.7) is acceptable, too.
 
+![Screen Shot 2020-11-28 at 1 08 15 PM](https://user-images.githubusercontent.com/72099238/100524096-cb35bd80-317a-11eb-81b0-8e0d59608ec8.png)
+
+The residual does not fit perfectly on the line. The outliers in the tail that tell us ...
+
+It is right-skewed (or positively skewed). May need to log transform to solve it.
+
 There were quite a few key takeaways from our model. Perhaps the most important one is that location matters. Homes with a waterfront and a high view rating tend to be more valuable. We are also able to make conclusions about the latitudes and longitudes of homes. After separating the county into north/central/south as well as west/central/east regions, we could see that the neighborhoods in the north and west regions tend to fare better than homes in the other regions. The inclusion of the regional information greatly reduced the error in our model.
 
 The importance of condition is also an important takeaway, as homes with the highest condition rating were valued much higher than homes from the rest of the sample. This is a point of emphasis because condition can be controlled by homeowners. Another takeaway is that older homes in our sample had more value. While the year of construction did not make a massive difference, it was statistically significant and therefore worth including in our model.
