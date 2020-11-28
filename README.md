@@ -11,6 +11,7 @@ Our goal is provide insight to real estate agencies that help people in the hous
 
 # Base Model
 ![Screen Shot 2020-11-28 at 1 05 40 PM](https://user-images.githubusercontent.com/72099238/100524052-7b56f680-317a-11eb-87e8-065c8d4d7f54.png)
+
 There are a couple of positive takeaways. There is only one high p-value. We see a pretty high R^2 (.701), and
 The skew coefficient (0.7) is acceptable, too.
 
