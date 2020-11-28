@@ -32,7 +32,7 @@ On this model, we focus on categorical variables and made it dummies
 ![Screen Shot 2020-11-28 at 1 20 39 PM](https://user-images.githubusercontent.com/72099238/100524302-90348980-317c-11eb-90ba-dd18880a1b62.png)
 
 
-* R_squared is .602 that lower than basemodel and RMSE is 140227 that higher than basemodel. 
+* R^2 is .602, which is lower than the base model. The RMSE has increased to 140,227m which is higher than basemodel. Therefore, this does not appear to be an improvement.
 
 * This model is definitely worse than base model
 
