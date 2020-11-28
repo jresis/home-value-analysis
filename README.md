@@ -26,7 +26,9 @@ It is right-skewed (or positively skewed). May need to log transform to solve it
 
 # Second Model
 
-![Screen Shot 2020-11-28 at 1 14 02 PM](https://user-images.githubusercontent.com/72099238/100524232-084e7f80-317c-11eb-9190-ff0316a58214.png)
+
+![Screen Shot 2020-11-28 at 1 16 57 PM](https://user-images.githubusercontent.com/72099238/100524259-392eb480-317c-11eb-8363-4d91bf032ae1.png)
+
 
 ![Screen Shot 2020-11-28 at 1 17 07 PM](https://user-images.githubusercontent.com/72099238/100524233-0a184300-317c-11eb-8777-48fe105ecabe.png)
 
