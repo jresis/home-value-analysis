@@ -10,6 +10,9 @@ Our goal is provide insight to real estate agencies that help people in the hous
 * Statsmodels
 
 # Base Model
+![Screen Shot 2020-11-28 at 1 05 40 PM](https://user-images.githubusercontent.com/72099238/100524052-7b56f680-317a-11eb-87e8-065c8d4d7f54.png)
+There are a couple of positive takeaways. There is only one high p-value. We see a pretty high R^2 (.701), and
+The skew coefficient (0.7) is acceptable, too.
 
 There were quite a few key takeaways from our model. Perhaps the most important one is that location matters. Homes with a waterfront and a high view rating tend to be more valuable. We are also able to make conclusions about the latitudes and longitudes of homes. After separating the county into north/central/south as well as west/central/east regions, we could see that the neighborhoods in the north and west regions tend to fare better than homes in the other regions. The inclusion of the regional information greatly reduced the error in our model.
 
