@@ -26,11 +26,17 @@ It is right-skewed (or positively skewed). May need to log transform to solve it
 
 # Second Model
 
+On this model, we focus on categorical variables and made it dummies
 
-![Screen Shot 2020-11-28 at 1 16 57 PM](https://user-images.githubusercontent.com/72099238/100524259-392eb480-317c-11eb-8363-4d91bf032ae1.png)
+![Screen Shot 2020-11-28 at 1 20 25 PM](https://user-images.githubusercontent.com/72099238/100524298-86ab2180-317c-11eb-988d-4358ba462383.png)
 
 
-![Screen Shot 2020-11-28 at 1 17 07 PM](https://user-images.githubusercontent.com/72099238/100524233-0a184300-317c-11eb-8777-48fe105ecabe.png)
+![Screen Shot 2020-11-28 at 1 20 39 PM](https://user-images.githubusercontent.com/72099238/100524302-90348980-317c-11eb-90ba-dd18880a1b62.png)
+
+
+R_squared is .602 that lower than basemodel and RMSE is 140227 that higher than basemodel. This model is definitely worse than base model
+
+
 
 There were quite a few key takeaways from our model. Perhaps the most important one is that location matters. Homes with a waterfront and a high view rating tend to be more valuable. We are also able to make conclusions about the latitudes and longitudes of homes. After separating the county into north/central/south as well as west/central/east regions, we could see that the neighborhoods in the north and west regions tend to fare better than homes in the other regions. The inclusion of the regional information greatly reduced the error in our model.
 
