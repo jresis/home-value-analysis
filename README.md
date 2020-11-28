@@ -16,11 +16,18 @@ There are a couple of positive takeaways. There is only one high p-value. We see
 
 The skew coefficient (0.7) is acceptable, too.
 
+The RMSE is 121054
+
 ![Screen Shot 2020-11-28 at 1 08 15 PM](https://user-images.githubusercontent.com/72099238/100524096-cb35bd80-317a-11eb-81b0-8e0d59608ec8.png)
 
 The residual does not fit perfectly on the line. The outliers in the tail that tell us ...
 
 It is right-skewed (or positively skewed). May need to log transform to solve it.
+
+# Second Model
+
+![Screen Shot 2020-11-28 at 1 14 02 PM](https://user-images.githubusercontent.com/72099238/100524232-084e7f80-317c-11eb-9190-ff0316a58214.png)
+![Screen Shot 2020-11-28 at 1 17 07 PM](https://user-images.githubusercontent.com/72099238/100524233-0a184300-317c-11eb-8777-48fe105ecabe.png)
 
 There were quite a few key takeaways from our model. Perhaps the most important one is that location matters. Homes with a waterfront and a high view rating tend to be more valuable. We are also able to make conclusions about the latitudes and longitudes of homes. After separating the county into north/central/south as well as west/central/east regions, we could see that the neighborhoods in the north and west regions tend to fare better than homes in the other regions. The inclusion of the regional information greatly reduced the error in our model.
 
